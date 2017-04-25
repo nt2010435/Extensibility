@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7e737a7b-c23a-4471-bbfa-6f797879bfb5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1502/PersonService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PersonService.xsd" MetadataType="Schema" ID="e70c17bd-67bc-4040-8c98-bce59bced4ed" SourceId="1" SourceUrl="http://localhost:1502/PersonService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PersonService1.xsd" MetadataType="Schema" ID="b166f33d-ff3f-4743-9b53-19f29a582cca" SourceId="1" SourceUrl="http://localhost:1502/PersonService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PersonService2.xsd" MetadataType="Schema" ID="13c7af27-6a04-4113-a355-c71b3f40cf82" SourceId="1" SourceUrl="http://localhost:1502/PersonService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PersonService.wsdl" MetadataType="Wsdl" ID="f700f0fd-9b91-4721-ba90-c047a760f229" SourceId="1" SourceUrl="http://localhost:1502/PersonService.svc?wsdl" />
+    <MetadataFile FileName="PersonService.disco" MetadataType="Disco" ID="3a48b8c7-598b-4648-b972-48737eb60cfb" SourceId="1" SourceUrl="http://localhost:1502/PersonService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
